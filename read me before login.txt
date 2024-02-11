@@ -1,0 +1,5 @@
+user name :123
+password :123
+
+insert any mony in stoke before do any action to activate the stoke
+يجب اضافه اي مبلغ الي الخزنه اولا عند تسطيب البرنامج لاول مره

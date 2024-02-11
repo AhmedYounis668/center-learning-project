@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2A0F11A2-4EEC-4AC9-973D-6D8244FD7EAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Center_Learning</RootNamespace>
+    <AssemblyName>Center Learning</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\C#\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Simple Touch</ProductName>
+    <PublisherName>Simple Touch</PublisherName>
+    <SuiteName>Simple Touch</SuiteName>
+    <ApplicationRevision>26</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>07FEC7A152B9E415AA34C2A36FF2C72D4879C846</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>4373266_bitcoin_logo_logos_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v18.1" />
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v18.1" />
+    <Reference Include="DevExpress.Printing.v18.1.Core" />
+    <Reference Include="DevExpress.Utils.v18.1" />
+    <Reference Include="DevExpress.XtraBars.v18.1" />
+    <Reference Include="DevExpress.Sparkline.v18.1.Core" />
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v18.1" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\Big Bos Accounting\تحديث المرتجعات لل big bos\New folder (777)\big bos finish\big bos finish\big bosاخر تحديث\BigBos_trading_program\DXApplication8\bin\Release\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Dmf, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\Big Bos Accounting\تحديث المرتجعات لل big bos\New folder (777)\big bos finish\big bos finish\big bosاخر تحديث\BigBos_trading_program\DXApplication8\bin\Release\Microsoft.SqlServer.Dmf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Dmf.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\Big Bos Accounting\تحديث المرتجعات لل big bos\New folder (777)\big bos finish\big bos finish\big bosاخر تحديث\BigBos_trading_program\DXApplication8\bin\Release\Microsoft.SqlServer.Dmf.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\sales222\sales222\bin\Release\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.SmoMetadataProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\Big Bos Accounting\تحديث المرتجعات لل big bos\New folder (777)\big bos finish\big bos finish\big bosاخر تحديث\BigBos_trading_program\DXApplication8\bin\Release\Microsoft.SqlServer.Management.SmoMetadataProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.SqlParser, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\sales222\sales222\bin\Release\Microsoft.SqlServer.Management.SqlParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\Big Bos Accounting\تحديث المرتجعات لل big bos\New folder (777)\big bos finish\big bos finish\big bosاخر تحديث\BigBos_trading_program\DXApplication8\bin\Release\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\Big Bos Accounting\تحديث المرتجعات لل big bos\New folder (777)\big bos finish\big bos finish\big bosاخر تحديث\BigBos_trading_program\DXApplication8\bin\Release\Microsoft.SqlServer.SmoExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.SqlClrProvider, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Ahmed AAAA\sales222\sales222\bin\Release\Microsoft.SqlServer.SqlClrProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="absentandattendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="absentandattendance.Designer.cs">
+      <DependentUpon>absentandattendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addemployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addemployee.Designer.cs">
+      <DependentUpon>addemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_magou3a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_magou3a.Designer.cs">
+      <DependentUpon>add_magou3a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_stoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_stoke.Designer.cs">
+      <DependentUpon>add_stoke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="allstudent-notactivation-inallmrahel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>allstudent-notactivation-inallmrahel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="allstudent_notactivation_in-selected-marhala.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>allstudent_notactivation_in-selected-marhala.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="attendans_reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendans_reports.Designer.cs">
+      <DependentUpon>attendans_reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="balancenow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="balancenow.Designer.cs">
+      <DependentUpon>balancenow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="database.cs" />
+    <Compile Include="eda3in_khazna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eda3in_khazna.Designer.cs">
+      <DependentUpon>eda3in_khazna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="employeeabsentsanddiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employeeabsentsanddiscount.Designer.cs">
+      <DependentUpon>employeeabsentsanddiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="employeeaccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employeeaccount.Designer.cs">
+      <DependentUpon>employeeaccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exam_degree_printing.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>exam_degree_printing.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="expenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="expenses.Designer.cs">
+      <DependentUpon>expenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="expenses_reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="expenses_reports.Designer.cs">
+      <DependentUpon>expenses_reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="expenses_report_print.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>expenses_report_print.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="expenses_type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="expenses_type.Designer.cs">
+      <DependentUpon>expenses_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hdourandensraf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hdourandensraf.Designer.cs">
+      <DependentUpon>hdourandensraf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="magmou3a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="magmou3a.Designer.cs">
+      <DependentUpon>magmou3a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mrahel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mrahel.Designer.cs">
+      <DependentUpon>mrahel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printing.Designer.cs">
+      <DependentUpon>printing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="program_setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program_setting.Designer.cs">
+      <DependentUpon>program_setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sal7iat_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sal7iat_users.Designer.cs">
+      <DependentUpon>sal7iat_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sandatemployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sandatemployee.Designer.cs">
+      <DependentUpon>sandatemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sand_kabd.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sand_kabd.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="serverconnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serverconnection.Designer.cs">
+      <DependentUpon>serverconnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stoke_reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stoke_reports.Designer.cs">
+      <DependentUpon>stoke_reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentinmarhala.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>studentinmarhala.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="student_account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_account.Designer.cs">
+      <DependentUpon>student_account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_account_printing.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>student_account_printing.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="student_account_printing2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>student_account_printing2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="student_analys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_analys.Designer.cs">
+      <DependentUpon>student_analys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_data.Designer.cs">
+      <DependentUpon>student_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_degree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_degree.Designer.cs">
+      <DependentUpon>student_degree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_degree_reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_degree_reports.Designer.cs">
+      <DependentUpon>student_degree_reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_inmarhlaselected.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_inmarhlaselected.Designer.cs">
+      <DependentUpon>student_inmarhlaselected.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_in_marhala_and_magmou3a.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>student_in_marhala_and_magmou3a.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="student_salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="student_salary.Designer.cs">
+      <DependentUpon>student_salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="student_statement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>student_statement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="st_statementprint.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>st_statementprint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="update_degrees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_degrees.Designer.cs">
+      <DependentUpon>update_degrees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="withdrowalfrom_stoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="withdrowalfrom_stoke.Designer.cs">
+      <DependentUpon>withdrowalfrom_stoke.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="absentandattendance.resx">
+      <DependentUpon>absentandattendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addemployee.resx">
+      <DependentUpon>addemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_magou3a.resx">
+      <DependentUpon>add_magou3a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_stoke.resx">
+      <DependentUpon>add_stoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="allstudent-notactivation-inallmrahel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>allstudent-notactivation-inallmrahel.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="allstudent_notactivation_in-selected-marhala.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>allstudent_notactivation_in-selected-marhala.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendans_reports.resx">
+      <DependentUpon>attendans_reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="balancenow.resx">
+      <DependentUpon>balancenow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eda3in_khazna.resx">
+      <DependentUpon>eda3in_khazna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employeeabsentsanddiscount.resx">
+      <DependentUpon>employeeabsentsanddiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employeeaccount.resx">
+      <DependentUpon>employeeaccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exam_degree_printing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>exam_degree_printing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="expenses.resx">
+      <DependentUpon>expenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="expenses_reports.resx">
+      <DependentUpon>expenses_reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="expenses_report_print.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>expenses_report_print.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="expenses_type.resx">
+      <DependentUpon>expenses_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hdourandensraf.resx">
+      <DependentUpon>hdourandensraf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="magmou3a.resx">
+      <DependentUpon>magmou3a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mrahel.resx">
+      <DependentUpon>mrahel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printing.resx">
+      <DependentUpon>printing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="program_setting.resx">
+      <DependentUpon>program_setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sal7iat_users.resx">
+      <DependentUpon>sal7iat_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sandatemployee.resx">
+      <DependentUpon>sandatemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sand_kabd.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>sand_kabd.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serverconnection.resx">
+      <DependentUpon>serverconnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stoke_reports.resx">
+      <DependentUpon>stoke_reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentinmarhala.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>studentinmarhala.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_account.resx">
+      <DependentUpon>student_account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_account_printing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_account_printing.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_account_printing2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_account_printing2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_analys.resx">
+      <DependentUpon>student_analys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_data.resx">
+      <DependentUpon>student_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_degree.resx">
+      <DependentUpon>student_degree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_degree_reports.resx">
+      <DependentUpon>student_degree_reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_inmarhlaselected.resx">
+      <DependentUpon>student_inmarhlaselected.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_in_marhala_and_magmou3a.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_in_marhala_and_magmou3a.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_salary.resx">
+      <DependentUpon>student_salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_statement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>student_statement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="st_statementprint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>st_statementprint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_degrees.resx">
+      <DependentUpon>update_degrees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="withdrowalfrom_stoke.resx">
+      <DependentUpon>withdrowalfrom_stoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Center Learning_1_TemporaryKey.pfx" />
+    <None Include="Center Learning_2_TemporaryKey.pfx" />
+    <None Include="Center Learning_3_TemporaryKey.pfx" />
+    <None Include="Center Learning_4_TemporaryKey.pfx" />
+    <None Include="Center Learning_5_TemporaryKey.pfx" />
+    <None Include="Center Learning_6_TemporaryKey.pfx" />
+    <None Include="Center Learning_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="4373266_bitcoin_logo_logos_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

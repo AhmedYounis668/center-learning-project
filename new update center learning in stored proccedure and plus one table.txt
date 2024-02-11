@@ -1,0 +1,111 @@
+USE [Center__Learning]
+GO
+/****** Object:  StoredProcedure [dbo].[student_in_marhala_and_magmou3a]    Script Date: 04/09/2023 08:02:17 م ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[student_in_marhala_and_magmou3a]
+As
+--طباعه سندات
+
+
+
+select student_id as'رقم  الطالب',student_name as'اسم الطالب',marhala_name as'المرحله',marhal_id as'رقم المرحله',student_code as'كود الطالب',magmo3a_id as'رقم المجموعه',magmo3a_name as'اسم المجموعه' from student_data where activation=1
+
+
+
+
+
+
+
+
+
+
+==========================================================
+USE [Center__Learning]
+GO
+/****** Object:  StoredProcedure [dbo].[student_in_marhala]    Script Date: 04/09/2023 08:05:05 م ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[student_in_marhala]
+As
+--طباعه سندات
+
+
+
+select student_id as'رقم  الطالب',student_name as'اسم الطالب',marhala_name as'المرحله',marhal_id as'رقم المرحله',student_code as'كود الطالب' from student_data where activation=1
+
+
+
+
+
+
+
+
+
+
+===================================================
+USE [Center__Learning]
+GO
+
+/****** Object:  Table [dbo].[student_leve_course]    Script Date: 04/09/2023 08:10:35 م ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[student_leve_course](
+	[student_id] [int] NULL,
+	[student_code] [nvarchar](150) NULL,
+	[student_name] [nvarchar](250) NULL,
+	[marhala_id] [int] NULL,
+	[marhala_name] [nvarchar](150) NULL,
+	[activation] [int] NULL,
+	[phone] [int] NULL,
+	[father_phone] [int] NULL
+) ON [PRIMARY]
+GO
+
+
+
+
+======================================================
+USE [Center__Learning]
+GO
+/****** Object:  StoredProcedure [dbo].[all-student-notactivation-ina-ll-mrahel]    Script Date: 05/09/2023 02:54:11 ص ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create PROCEDURE [dbo].[all-student-notactivation-ina-ll-mrahel]
+As
+--طباعه درجات اختبار الطالب
+
+
+
+select student_id as'رقم  الطالب',student_name as'اسم الطالب',marhala_name as'المرحله',marhal_id as'رقم المرحله',student_code as'كود الطالب',phone as'تليفون الطالب',father_phone as'تليفون ولي الامر',magmo3a_id as'رقم المجموعه',magmo3a_name as'اسم المجموعه' from student_data where activation=0
+
+
+
+
+===========================================================
+
+USE [Center__Learning]
+GO
+/****** Object:  StoredProcedure [dbo].[all-student-notactivation-ina-selected-marhala]    Script Date: 05/09/2023 02:54:40 ص ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create PROCEDURE [dbo].[all-student-notactivation-ina-selected-marhala]
+As
+
+
+
+
+select student_id as'رقم  الطالب',student_name as'اسم الطالب',marhala_name as'المرحله',marhal_id as'رقم المرحله',student_code as'كود الطالب',phone as'تليفون الطالب',father_phone as'تليفون ولي الامر',magmo3a_id as'رقم المجموعه',magmo3a_name as'اسم المجموعه' from student_data where activation=0
+
